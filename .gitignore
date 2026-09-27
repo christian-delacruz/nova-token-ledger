@@ -1,0 +1,7 @@
+# Real ledger exports stay local; only aggregates get published
+data/
+*.jsonl
+!sample_data/*.jsonl
+__pycache__/
+.pytest_cache/
+.env*

@@ -1,0 +1,8 @@
+{"ts": "2026-09-27T21:21:47+00:00", "bot": "telegram", "purpose": "classify", "tier": "", "model": "claude-haiku-4-5-20251001", "input_tokens": 155, "output_tokens": 7, "user": ""}
+{"ts": "2026-09-27T21:21:48+00:00", "bot": "telegram", "purpose": "answer_free", "tier": "free", "model": "claude-haiku-4-5-20251001", "input_tokens": 246, "output_tokens": 116, "user": "sample0000000001"}
+{"ts": "2026-09-27T21:41:30+00:00", "bot": "telegram", "purpose": "classify", "tier": "", "model": "claude-haiku-4-5-20251001", "input_tokens": 164, "output_tokens": 7, "user": ""}
+{"ts": "2026-09-27T21:41:33+00:00", "bot": "telegram", "purpose": "answer_free", "tier": "free", "model": "claude-haiku-4-5-20251001", "input_tokens": 276, "output_tokens": 190, "user": "sample0000000001"}
+{"ts": "2026-09-28T13:05:10+00:00", "bot": "whatsapp", "purpose": "classify", "tier": "", "model": "claude-haiku-4-5-20251001", "input_tokens": 170, "output_tokens": 7, "user": ""}
+{"ts": "2026-09-28T13:05:12+00:00", "bot": "whatsapp", "purpose": "upsell_avanzado", "tier": "free", "model": "claude-haiku-4-5-20251001", "input_tokens": 190, "output_tokens": 110, "user": "sample0000000002"}
+{"ts": "2026-09-28T14:20:01+00:00", "bot": "whatsapp", "purpose": "classify", "tier": "", "model": "claude-haiku-4-5-20251001", "input_tokens": 158, "output_tokens": 7, "user": ""}
+{"ts": "2026-09-28T14:20:04+00:00", "bot": "whatsapp", "purpose": "answer_paid", "tier": "paid", "model": "claude-haiku-4-5-20251001", "input_tokens": 410, "output_tokens": 240, "user": "sample0000000003"}
