@@ -77,7 +77,8 @@ def report(s):
         lines.append(f"  {purpose:<20} ${cost:.4f}")
     lines += ["", "Cost per active learner, by month:"]
     for month, cost in sorted(s["cost_per_learner"].items()):
-        lines.append(f"  {month}  ${cost:.4f}  ({len(s['month_learners'][month])} learners)")
+        n = len(s['month_learners'][month])
+        lines.append(f"  {month}  ${cost:.4f}  ({n} learner{'s' if n != 1 else ''})")
     return "\n".join(lines)
 
 

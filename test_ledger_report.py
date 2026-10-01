@@ -1,5 +1,5 @@
 import pytest
-from ledger_report import call_cost, summarize
+from ledger_report import call_cost, report, summarize
 
 MODEL = "claude-haiku-4-5-20251001"
 PRICES = {MODEL: (1.0, 5.0)}
@@ -41,3 +41,12 @@ def test_cost_per_learner_counts_distinct_users():
 def test_upsells_are_acquisition_cost():
     s = summarize([rec("upsell_avanzado", 300, 100, user="u1")], PRICES)
     assert s["acquisition_cost"] == pytest.approx(s["total_cost"])
+
+
+def test_learner_count_singular_and_plural():
+    one = report(summarize([rec("answer_free", 200, 100, user="u1")], PRICES))
+    assert "(1 learner)" in one
+    two = report(summarize([rec("answer_free", 200, 100, user="u1"),
+                            rec("answer_free", 200, 100, user="u2")], PRICES))
+    assert "(2 learners)" in two
+    
