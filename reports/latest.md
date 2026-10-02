@@ -16,5 +16,5 @@ Cost by purpose:
   classify             $0.0004
 
 Cost per active learner, by month:
-  2026-09  $0.0024  (1 learners)
+  2026-09  $0.0024  (1 learner)
 ```
